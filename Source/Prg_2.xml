@@ -32,7 +32,7 @@
         <ItemIsn val="1"/>
         <Resource>
           <Columns>
-            <Column id="1" name="aaaa">
+            <Column id="1" name="aaaa_new">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
