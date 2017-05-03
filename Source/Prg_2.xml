@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736452" _time="67494" date="03/05/2017" time="18:44:54"/>
+          <LastModified _date="736452" _time="68150" date="03/05/2017" time="18:55:50"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="2"/>
         <Resource>
           <Columns>
             <Column id="1" name="aaaa_new">
@@ -39,6 +39,16 @@
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="10"/>
                 <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="2" name="var2">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="10"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -123,6 +133,17 @@
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
                   <Column val="1"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="2" FlowIsn="4" id="2">
+                  <Column val="2"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
